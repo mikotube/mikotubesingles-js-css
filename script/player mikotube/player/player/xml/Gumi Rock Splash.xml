@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<settings>
+		<width>300</width>
+		<height>300</height>
+		<controllerPos>bottom</controllerPos>
+		<loaderColor>0x000000</loaderColor>
+		<tweenTime>2</tweenTime>
+		<titleScrollTime>33</titleScrollTime>
+		<scrollTitleWait>2000</scrollTitleWait>
+		<delay>5000</delay>
+		<initvolume>0.5</initvolume>
+		<volScrollMultiplier>0.1</volScrollMultiplier>
+		<padding>10</padding>
+		<buffer>1</buffer>
+		
+		<autoload>true</autoload>
+		<autoplay>false</autoplay>
+		<repeat>false</repeat>
+		<jumpToNext>false</jumpToNext>
+		<showArtist>false</showArtist>
+		
+		<bufferDesc><![CDATA[<p><b>Buffer:</b></p>]]></bufferDesc>
+		<playDesc><![CDATA[<p><b>Play:</b></p>]]></playDesc>
+		<pauseDesc><![CDATA[<p><b>Pause:</b></p>]]></pauseDesc>
+		<prevDesc><![CDATA[<p><b>Prev:</b></p>]]></prevDesc>
+		<nextDesc><![CDATA[<p><b>Next:</b></p>]]></nextDesc>
+		<volDesc><![CDATA[<p><b>Volume:</b></p>]]></volDesc>
+	</settings>
+		
+	<albumArt>
+		<imgPath>https://dl.dropbox.com/u/17981026/cover/Cover%20%282%29.jpg</imgPath>
+		<imgPath>https://dl.dropbox.com/u/17981026/cover/71YuxW4RwgL.jpg</imgPath>
+	</albumArt>
+
+	<playlist>	
+		<track>
+			<songPath>https://dl.dropbox.com/u/17981026/singles%20mikotube.com/07%20%E5%A4%A9%E7%A7%A4%E3%80%81%E5%B4%A9%E3%82%8C%E8%90%BD%E3%81%A1%E3%82%8B%E3%82%AC%E3%83%A9%E3%82%AF%E3%82%BF.mp3</songPath>
+			<songName><![CDATA[<p>Gumi Rock Splash-天秤、崩れ落ちるガラクタ</p>]]></songName>
+		</track>
+		
+	</playlist>
+	
+</data>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+	<settings>
+		<width>300</width>
+		<height>300</height>
+		<controllerPos>bottom</controllerPos>
+		<loaderColor>0x000000</loaderColor>
+		<tweenTime>2</tweenTime>
+		<titleScrollTime>33</titleScrollTime>
+		<scrollTitleWait>2000</scrollTitleWait>
+		<delay>5000</delay>
+		<initvolume>0.5</initvolume>
+		<volScrollMultiplier>0.1</volScrollMultiplier>
+		<padding>10</padding>
+		<buffer>1</buffer>
+		
+		<autoload>true</autoload>
+		<autoplay>false</autoplay>
+		<repeat>false</repeat>
+		<jumpToNext>false</jumpToNext>
+		<showArtist>false</showArtist>
+		
+		<bufferDesc><![CDATA[<p><b>Buffer:</b></p>]]></bufferDesc>
+		<playDesc><![CDATA[<p><b>Play:</b></p>]]></playDesc>
+		<pauseDesc><![CDATA[<p><b>Pause:</b></p>]]></pauseDesc>
+		<prevDesc><![CDATA[<p><b>Prev:</b></p>]]></prevDesc>
+		<nextDesc><![CDATA[<p><b>Next:</b></p>]]></nextDesc>
+		<volDesc><![CDATA[<p><b>Volume:</b></p>]]></volDesc>
+	</settings>
+		
+	<albumArt>
+		<imgPath>https://dl.dropbox.com/u/17981026/cover/Cover%20%283%29.jpg</imgPath>
+	</albumArt>
+
+	<playlist>	
+		<track>
+			<songPath>https://dl.dropbox.com/u/17981026/singles%20mikotube.com/12%20By%20My%20Side.mp3</songPath>
+			<songName><![CDATA[<p>NARUTO GREATEST HITS!!!!!-By My Side</p>]]></songName>
+		</track>
+		
+	</playlist>
+	
+</data>
