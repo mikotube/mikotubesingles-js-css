@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>JQuery Facebook Traffic Driver</title>
+	<link rel="stylesheet" href="demo.css" />
+	<link rel="stylesheet" href="facebooktrafficdriver.css" />
+	<script src="jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+    <script src="facebooktrafficdriver.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			// Start Plugin
+			$("body").facebooktrafficdriver({
+				'url' : 'facebook.com/ladygaga',
+		         'stream' : 1,
+			     'headline' : 'Help Us Reach Our Goal',
+			     'descr' : 'We need to reach 1000 likes to recieve federal funding for our campaign. Together we can make the most of this year!',
+			     'required' : 1,
+				 'delay' : 30
+			});
+		});
+    </script>
+</head>
+
+<body>
+<div id="pagewrapper">
+        <div class="container">
+            <div id="content"><br>
+				<h1>JQuery Facebook Traffic Driver</h1>
+				<h3>Description</h3>
+				<p>This plugin will take your Facebook presence to new heights. Its elegant look and realtime stats will make people feel like they are making a difference.</p>
+				<h3>Usage</h3>
+				<p>-----<br />
+					1. Include the latest copy of Jquery in your <head></head> tag. Jquery can be found at 'http://www.jquery.com'.<br>
+					2. Include the 'facebooktrafficdriver.js' in your <head></head> tag after Jquery.<br>
+
+					3. Include the 'facebooktrafficdriver.css' in your <head></head>.<br>
+
+					4. Next, write a JavaScript function that calls the plugin.</p>
+				<p>Settings<br />
+				---------</p>
+				<p>***** url<br />
+				This is the address to the page that will associated with Facebook. ie: <a href="http://facebook.com/ladygaga">http://facebook.com/ladygaga</a></p>
+				<p>***** headline<br />
+				This should be a punchy headline that introduces your call to action.</p>
+				<p>***** descr<br />
+				This should be a one sentence description.</p>
+				<p>***** stream<br />
+				This will activate a realtime stream of the current number of likes.</p>
+				<p>***** required<br />
+				This will make it mandatory to click the like button in order to view the page.</p>
+				<p>***** delay<br />
+				This will activate a timer that will cause the popup to hide itself after it expires. This should be a value from 0-99.</p>
+            </div>
+		</div> 
+    </div>
+
+</body>
+</html>
